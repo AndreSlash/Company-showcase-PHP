@@ -1,0 +1,167 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Playfair Display', serif;
+}
+
+body .d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+body .d-none {
+  display: none !important;
+}
+
+body .heading {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+
+body .heading img {
+  cursor: pointer;
+}
+
+body form {
+  displaY: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form input {
+  font-size: 1em;
+  text-align: center;
+  width: 90vw;
+  height: 50px;
+  margin-top: 15px;
+}
+
+body form button {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+  width: 90vw;
+  height: 50px;
+  background: #ED482C;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+
+body .buttons {
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .buttons .button {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+  width: 90vw;
+  height: 50px;
+  background: #ED482C;
+  color: white;
+  border: none;
+  position: relative;
+  font-size: 1em;
+}
+
+body .buttons .button div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .buttons .button div a {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+body .buttons .button a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body .buttons .button a img {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+body .footer {
+  margin-top: 100px;
+  width: 90vw;
+  min-height: 100px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+body .footer p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+body .footer .img-bar {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .logout {
+  cursor: pointer;
+}
+
+body .logout input {
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  background: #ED482C;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

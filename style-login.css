@@ -1,0 +1,78 @@
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+body .wrap {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrap img {
+  margin: 25px;
+}
+
+body .wrap .cell {
+  width: 80%;
+  height: 500px;
+  background: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrap .cell form {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrap .cell form h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .wrap .cell form input {
+  text-align: center;
+  width: 60vw;
+  bordeR: none;
+  height: 40px;
+  font-size: 1em;
+  margin: 10px;
+}
+
+body .wrap .cell form .submit {
+  background: #e8e8e8;
+  border: none;
+}
+/*# sourceMappingURL=style-login.css.map */
